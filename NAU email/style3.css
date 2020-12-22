@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #fff;
+    background-color: #ddd;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +18,7 @@ body{
     width: 95%;
     height: 90vh;
     margin: 2rem ;
-    background: #ccc;
+    background: rgb(4, 87, 24);
     position: relative;
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@ body{
     height: 60%;
     background:  #ffffff;
     position: absolute;
-    border-radius: 5px;
+    border-radius: 4rem 4rem 4rem 0;
     bottom: 5rem;
     left: 2rem;
     right: 2rem;
@@ -148,8 +148,8 @@ body{
     display: block;
     display: flex;
     padding: 0.6rem;
-    background: #080596;
-    border-radius:  1rem;
+    background:  rgb(4, 87, 24);
+    border-radius: 2rem 2rem 2rem 0;
     right: 4rem;
 }
 
@@ -166,7 +166,7 @@ body{
 .link a:hover,
 .link:hover{
     transition: transform  all 0.3s ease-in;
-    color:#080596;
+    color: rgb(4, 87, 24);
     font-weight: 900;
     background: #fff;
 }
